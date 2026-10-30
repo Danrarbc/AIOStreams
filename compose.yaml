@@ -4,8 +4,6 @@ services:
     container_name: aiostreams
     restart: unless-stopped
     ports:
-      - 3000:3000
-    env_file:
-      - .env
+      - 3005:3005
     volumes:
       - ./data:/app/data
